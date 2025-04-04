@@ -1,0 +1,33 @@
+.slideshow-container {
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
+  }
+  
+  .slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .slide-img {
+    width: 150px; /* Adjust size as needed */
+    height: auto;
+    object-fit: contain;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .slide-img:hover {
+    transform: scale(1.1);
+  }
+  
+  .slideshow-section {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .slideshow-section h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  

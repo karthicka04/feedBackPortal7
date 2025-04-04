@@ -1,0 +1,115 @@
+/* General Container */
+.feed-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: 'Arial', sans-serif;
+  background-color: #f9f9f9;
+}
+
+/* Page Title */
+.feed-title {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Feedback List (Feed Layout) */
+.feed-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* Feedback Card */
+.feedback-card {
+  background: white;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+/* Feedback Header (Profile + User Info) */
+.feedback-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+/* Profile Icon */
+.profile-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #007bff;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* User Info */
+.user-info {
+  flex-grow: 1;
+}
+
+.user-name {
+  font-weight: bold;
+}
+
+.user-details {
+  font-size: 14px;
+  color: gray;
+}
+
+/* Company Info */
+.company-info p {
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+/* Action Icons (Like, Bookmark, Report) */
+.feedback-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.feedback-actions button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  color: #777;
+  transition: color 0.3s ease;
+}
+
+.feedback-actions button:hover {
+  color: #007bff;
+}
+
+/* View Full Feedback Button */
+.view-feedback-btn {
+  display: block;
+  margin-top: 10px;
+  background: #007bff;
+  color: white;
+  padding: 8px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  font-size: 14px;
+  transition: background 0.3s ease;
+}
+
+.view-feedback-btn:hover {
+  background: #0056b3;
+}
